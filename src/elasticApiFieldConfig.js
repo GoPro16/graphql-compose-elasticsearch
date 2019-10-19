@@ -3,7 +3,7 @@
 
 import { ObjectTypeComposer, graphql } from 'graphql-compose';
 import type { GraphQLFieldConfig } from 'graphql';
-import elasticsearch from 'elasticsearch';
+import elasticsearch from '@elastic/elasticsearch';
 import ElasticApiParser from './ElasticApiParser';
 
 const DEFAULT_ELASTIC_API_VERSION = '_default';

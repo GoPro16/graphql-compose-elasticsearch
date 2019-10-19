@@ -1,6 +1,6 @@
 /* @flow */
 
-import elasticsearch from 'elasticsearch';
+import elasticsearch from '@elastic/elasticsearch';
 import seedData from './seedData.json';
 
 const client = new elasticsearch.Client({

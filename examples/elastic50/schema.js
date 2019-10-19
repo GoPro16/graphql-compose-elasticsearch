@@ -1,6 +1,6 @@
 /* @flow */
 
-import elasticsearch from 'elasticsearch';
+import elasticsearch from '@elastic/elasticsearch';
 import { graphql, ObjectTypeComposer } from 'graphql-compose';
 import { composeWithElastic, elasticApiFieldConfig } from '../../src'; // from 'graphql-compose-elasticsearch';
 

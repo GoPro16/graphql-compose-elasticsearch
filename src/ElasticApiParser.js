@@ -115,7 +115,7 @@ export default class ElasticApiParser {
   }
 
   static findApiVersionFile(version: string): string {
-    const esModulePath = path.dirname(require.resolve('elasticsearch'));
+    const esModulePath = path.dirname(require.resolve('@elastic/elasticsearch'));
     const apiFolder = `${esModulePath}/lib/apis/`;
     const apiListFile = path.resolve(apiFolder, 'index.js');
     const apiListCode = ElasticApiParser.loadApiListFile(apiListFile);

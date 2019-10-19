@@ -6,7 +6,7 @@
 //   yarn docker:v5
 // -------------------------------------------------------------------
 
-import elasticsearch from 'elasticsearch';
+import elasticsearch from '@elastic/elasticsearch';
 import { ObjectTypeComposer, schemaComposer } from 'graphql-compose';
 import { graphql } from 'graphql';
 import { composeWithElastic } from '../..';
